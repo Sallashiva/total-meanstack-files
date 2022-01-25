@@ -1,0 +1,26 @@
+.flex-container{
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.flex-item{
+    /* min-height: 550px; */
+    width: 200px;
+    margin: 10px;
+    background-color: paleturquoise;
+}
+.flex-item-1{
+    min-height: 500px;
+    flex-grow: 0;
+}
+.flex-item-2{
+    min-height: 500px;
+    flex-grow: 0;
+}
+.flex-item-3{
+    min-height: 500px;
+    flex-grow: 0;
+}

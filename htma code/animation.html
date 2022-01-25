@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 350px;
+            width: 550px;
+            background-color: darkorange;
+        }
+        .child{
+            background-color:lightgray;
+            width: 30%;
+            height: 30%;
+            transition:transform 4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            text-overflow: ellipsis;
+            white-space: 30%;
+            overflow: hidden;
+        }
+        .parent:hover .child{
+            transform: translate(233%);
+            animation: left-right;
+            animation: 5s;
+            transform: skewX(40deg);
+
+        }
+        @keyframes left-right {
+            100%{
+                background-color: deepskyblue;
+                /* transform: translateY(100%); */
+            }
+            80%{
+                background-color: hotpink;
+            }
+            50%{
+                background-color: lawngreen;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <div class="child">hello world</div>
+    </div>
+    
+</body>
+</html>
+    

@@ -1,0 +1,67 @@
+.name{
+  background-color:orange; 
+}
+.name{
+  background-size:cover ;
+}
+#two{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXhVAhOpMlDrP1A-vQscmYAU2d1IYQPc3_A&usqp=CAU");
+  background-size:cover ;
+}
+a{
+  color:white;
+}
+#three{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE9A9P4MN8paTCoE9vV15AdKAremX6NiQujg&usqp=CAU");
+  background-size: cover;
+}
+#four{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJ_srJMFHPQ4_TFGVCQvsxHWqUgxpq-LsEg&usqp=CAU");
+  background-size: cover;
+}
+td{
+  color:floralwhite;
+}
+#five{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JJabAlTnYErifmaKUUP9UAdqCftljHNPtg&usqp=CAU");
+}
+table{
+  border:chartreuse;
+  background-color: darkgray;
+}
+#nine{
+  float: right;
+}
+#char{
+  border-radius: 50px;
+}
+#eleven{
+float: right;
+}
+p{
+  font-family: fantasy ;
+}
+p{
+  font-family: "Press Start 2P", cursive;
+}
+#van{
+  text-align: center;
+  text-decoration:underline brown;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  text-shadow: 2px 2px chartreuse;
+}
+#red{
+  background-color:orange;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right:-10px ;
+}
+#blue{
+  margin: 20px 100px 10px 20px;
+  padding: 10px 20px 30px 40px;
+  border: 10px solid black;
+}
+#hen{
+  display: inline;
+}
